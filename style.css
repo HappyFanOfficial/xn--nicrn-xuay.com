@@ -354,18 +354,6 @@ html {
     left: 50%;
     box-shadow: 0 0 0 30px #ff40e1, 0 0 0 60px #8139df, 0 0 0 90px #00b0ff, 0 0 0 120px #85c900, 0 0 0 150px #ffe100, 0 0 0 180px #ffae00, 0 0 0 210px #ff2220;
   }
-  .rainbow-container .rainbow::before {
-    content: "";
-    position: absolute;
-    width: 820px;
-    height: 820px;
-    z-index: 1;
-    top: 39px;
-    left: -26px;
-    border-radius: 50%;
-    background-image: radial-gradient(#00518a 0, #00518a 200px, transparent 60px), conic-gradient(transparent 10%, rgba(255, 255, 255, 0.3) 30%, transparent 40%);
-    animation: rotate linear infinite 2.5s;
-  }
   
   .bg {
     position: relative;
